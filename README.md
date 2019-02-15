@@ -1,6 +1,6 @@
 # learning-record
 banner 轮播图  
-ROM 只读存储器 
+ROM 只读存储器  
 RAM 随机存取存储器  
 SSD 固态硬盘
 

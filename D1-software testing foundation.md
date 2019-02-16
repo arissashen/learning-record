@@ -31,8 +31,9 @@ ASCII表中二进制为Bin，A为65，a为97
 >shutdown /a 取消之前设置的自动关机  
 >cls 清屏  
 
->ping 网址
->>yo  
+>ping www.baidu.com
+>>用于检查当前的网络是否是通的  
+>>可以得到当前被访问网页的ip地址
 >ipconfig 
 
 

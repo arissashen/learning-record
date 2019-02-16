@@ -47,32 +47,27 @@
 
 #### 自动化测试工程师  
 
->各种单端测试框架：unittest(python)、pytest(python)、JUnit（java）
->WEB自动化测试框架：selenium（适用于java\python\javascript）
->APP自动化测试框架：appium（适用于java\python\javascript）
+>各种单端测试框架：unittest(python)、pytest(python)、JUnit（java）  
+>WEB自动化测试框架：selenium（适用于java\python\javascript）  
+>APP自动化测试框架：appium（适用于java\python\javascript）  
 
 #### 性能测试工程师   
 
->对loadrunner和jmeter的掌握更加的深入。
->可以手写脚本、脱离录制。
->学会了多线程编程、能够手写java或者python、不用工具直接实现压测。
->学习linux,毕竟性能总是和服务器打交道的。
->学习系统架构的相关知识、方便更容易的分析系统瓶颈。
+>对loadrunner和jmeter的掌握更加的深入。  
+>可以手写脚本、脱离录制。  
+>学会了多线程编程、能够手写java或者python、不用工具直接实现压测。  
+>学习linux,毕竟性能总是和服务器打交道的。  
+>学习系统架构的相关知识、方便更容易的分析系统瓶颈。  
 
 #### 安全测试工程师 
 
->渗透测试
->SQL注入
->暴力破解
->脱库
+>渗透测试  
+>SQL注入  
+>暴力破解  
+>脱库  
 
 ### 第四阶段 架构学习
 
 考虑怎么写代码更合理、怎么测试更全面、怎么才能更好的保障项目的质量
 
 重温测试基础，发现为什么要这么做
-
-
-
-
-

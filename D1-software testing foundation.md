@@ -23,3 +23,15 @@ ASCII表中二进制为Bin，A为65，a为97
 1TB     =1024GB  
 1P      =1024TB  
 
+### DOS命令
+
+>time 显示当前计算机的本地时间  
+>ctrl+c 退出当前正在执行的命令  
+>shutdown /s /t 设置自动关机（单位：s）  
+>shutdown /a 取消之前设置的自动关机  
+>cls 清屏  
+
+
+
+
+

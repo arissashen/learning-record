@@ -15,9 +15,9 @@ MacOs本质是一个Linux分支
 ASCII表中二进制为Bin，A为65，a为97
 
 1B      =8b           1byte 字节=8bit 比特  
-1KB     =1024B
-1MB 兆  =1024KB
-1GB     =1024KB
-1TB     =1024GB
-1P      =1024TB
+1KB     =1024B  
+1MB 兆  =1024KB  
+1GB     =1024KB  
+1TB     =1024GB  
+1P      =1024TB  
 

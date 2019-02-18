@@ -65,7 +65,7 @@ del 文件名
 >>删除该目录下的所有文件，**该目录下文件夹还存在**  
 
 copy 被复制文件的路径 目的路径
->copy aa\qwe.txt bb\asd.txt 将该目录下aa文件夹内的qwe.txt文件复制到该目录下bb文件夹，并重命名为asd.txt
+>copy aa\qwe.txt **bb\asd.txt** 将该目录下aa文件夹内的qwe.txt文件复制到**该目录下bb文件夹，并重命名为asd.txt**  
 
 
 

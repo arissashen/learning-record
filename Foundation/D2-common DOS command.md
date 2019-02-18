@@ -67,6 +67,4 @@ del 文件名
 copy 被复制文件的路径 [目的路径[\重命名]]
 >copy aa\qwe.txt **bb\asd.txt** 将该目录下aa文件夹内的qwe.txt文件复制到**该目录下bb文件夹，并重命名为asd.txt**  
 
-
-
-
+move 被剪切文件的路径 目标路径

@@ -50,7 +50,7 @@ md 路径
 >>**创建的是文件夹，而不是某文件**
 
 echo 内容>文件名  
->echo qweasd>f:\test\aa\test.txt    
+>echo qweasd>f:\test\aa\test**.txt**    
 >通过这种方法间接得到一个文件
 
 rd 路径  

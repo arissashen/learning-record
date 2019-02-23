@@ -1,4 +1,4 @@
-## software testing foundation
+## 软件测试基础
 
 banner 轮播图  
 ROM 只读存储器    

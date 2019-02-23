@@ -1,4 +1,4 @@
-## DOS命令
+## DOS command
 
 ### 第一部分  
 

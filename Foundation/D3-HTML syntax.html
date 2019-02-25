@@ -11,7 +11,7 @@
 		<title>内容显示在标签页上</title>
 	</head>
 	<body>
-		<!--   第一部分   -->
+		<!--   第一部分：标题、段落   -->
 		<h1>标题1</h1>
 		<h2>标题2</h2>
 		<h3>标题3</h3>
@@ -22,7 +22,7 @@
 		<!-- 快速添加注释 ctrl+？ -->
 		<br />    <!-- 换行符 -->
 		
-		<!--   第二部分   -->
+		<!--   第二部分：图片   -->
  		<img src="img_test.jpg" />    <!-- 规定显示图像的 URL -->
 		<br />
 		<img src="bucunzaide.jpg" alt="当图片加载失败时显示的文字" />    <!-- 规定图像的替代文本 -->
@@ -32,13 +32,25 @@
 		<img src="img_test.jpg" title="显示" />    <!-- 鼠标悬停在图片上时显示的文字内容 -->
 		<br />
 		
-		<!--   第三部分   -->
+		<!--   第三部分：超链接   -->
 		<a href="http://www.baidu.com" >百度</a>
 		<br />
 		<a href="#">空连接，一般出现在开发阶段</a>
 		<br />
 		<a href="http://www.baidu.com" target=_blank>在新的标签页中打开连接</a>
 		<br />
+		
+		<!--   第四部分：表单   -->
+		<form action="#" method="post">     
+			<!-- 属性action表示将当前表单的数据提交到哪里 -->
+		   	<!-- 属性method表示将以什么样的方式提交当前表单的数据。值get将数据在URL中进行提交（明文），相对不安全；值post将数据写在HTTP请求的请求体当中 -->
+			
+			username:<input type="text" name="wsername" />
+			<br />
+			password:<input type="password" name="password" />
+			<br />
+			<input type="submit" />			
+		</form>		
 	</body>
 </html>
 

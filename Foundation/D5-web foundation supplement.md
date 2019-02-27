@@ -30,8 +30,7 @@ display属性值
 >转换为行内元素：inline	
 >转换为行内块元素：inline-block
 
-<pre>
-<code>
+<pre><code>
 <head>
 	<style type="text/css">
 		span{
@@ -42,8 +41,7 @@ display属性值
 		}
 	</style>
 </head>
-</code>		
-</pre>
+</code></pre>
 
 
 

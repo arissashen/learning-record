@@ -25,7 +25,8 @@ span标签
 
 ### 元素展示类型的转换
 display属性
-
+<pre>
+<code>
 <style type="text/css">  
 	
 	#qwe{    
@@ -34,5 +35,6 @@ display属性
 				height:33px;    
 				background:black;    	 		
 			}    
-		</style>    
-
+		</style>   
+</code>		
+</pre>

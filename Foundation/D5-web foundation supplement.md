@@ -29,7 +29,6 @@ display属性值
 >转换为块元素：block
 >转换为行内元素：inline	
 >转换为行内块元素：inline-block
-
 <pre><code>
 <head>
 	<style type="text/css">
@@ -56,8 +55,17 @@ id选择器 > 类名选择器 > 标签名选择器
 
 优先级：！important>行内样式>id选择器>类选择器>标签选择器>通配符>继承  
 
- 
+### 复合选择器
+后代选择器：以某一元素为起点，将其作为父元素，然后不停的向下进行穿透查找，去寻找它下面的后代元素
+<pre><code>
+<head>
+	
 
+</head>
+<body>
+	
+</body>
+</code></pre>
 
 
 

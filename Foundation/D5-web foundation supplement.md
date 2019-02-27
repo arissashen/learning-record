@@ -27,6 +27,7 @@ span标签
 display属性
 
 <style type="text/css">  
+	
 	#qwe{    
 	    color:pink;    
 				width:66px;    

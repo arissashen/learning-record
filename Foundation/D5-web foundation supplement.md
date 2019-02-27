@@ -26,5 +26,12 @@ span标签
 ### 元素展示类型的转换
 display属性
 
-
+<style type="text/css">
+			#qwe{
+				color:pink;
+				width:66px;
+				height:33px;
+				background:black;			
+			}
+		</style>
 

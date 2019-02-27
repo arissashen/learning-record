@@ -30,7 +30,8 @@ display属性值
 >转换为行内元素：inline	
 >转换为行内块元素：inline-block
 <pre><code>
-<!--<head>
+<html>
+<head>
 	<style type="text/css">
 		span{
 			width:100px;
@@ -39,8 +40,8 @@ display属性值
 			display:block;		
 		}
 	</style>
-</head>  -->
-
+</head>  
+</html>
 </code></pre>
 
 ### 简单选择器权重

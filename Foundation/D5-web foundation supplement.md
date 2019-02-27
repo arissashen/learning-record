@@ -24,17 +24,39 @@ span标签
 >同时存在多个行内块元素时，这些元素会显示在同一行，默认情况下其宽高属性起作用
 
 ### 元素展示类型的转换
-display属性
+
+display属性值
+>转换为块元素：block
+>转换为行内元素：inline	
+>转换为行内块元素：inline-block
+
 <pre>
-<code>
-<style type="text/css">  
-	
-	#qwe{    
-	    color:pink;    
+	<code>
+		<head>
+		<style type="text/css">  
+			span{    
+	    			color:pink;    
 				width:66px;    
 				height:33px;    
 				background:black;    	 		
 			}    
 		</style>   
-</code>		
+	</code>		
 </pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

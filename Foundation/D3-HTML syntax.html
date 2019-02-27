@@ -43,9 +43,13 @@
 		<!--   第四部分：表单   -->
 		<form action="#" method="post">     
 		<!-- 属性action表示将当前表单的数据提交到哪里 -->
-		<!-- 属性method表示将以什么样的方式提交当前表单的数据。值get将数据在URL中进行提交（明文），相对不安全；值post将数据写在HTTP请求的请求体当中 -->
+		<!-- 属性method表示将以什么样的方式提交当前表单的数据。值get将数据在URL中进行提交（明文），相对不安全；
+								   值post将数据写在HTTP请求的请求体当中 -->
 			
 			username:<input type="text" name="username" />    <!-- text:文本输入框，后台接收数据为name值 -->
+			<br />
+			placeholder属性显示提示信息，该提示会在输入字段为空时显示，并在字段获得焦点时消失
+			<input type="text placeholder="请输入邮箱地址" />
 			<br />
 			password:<input type="password" name="password" />    <!-- password:密码输入框，后台接收数据为name值 -->
 			<br />

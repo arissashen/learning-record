@@ -31,17 +31,18 @@ display属性值
 >转换为行内块元素：inline-block
 
 <pre>
-	<code>
-		<head>
-		<style type="text/css">  
-			span{    
-	    			color:pink;    
-				width:66px;    
-				height:33px;    
-				background:black;    	 		
-			}    
-		</style>   
-	</code>		
+<code>
+<head>
+	<style type="text/css">
+		span{
+			width:100px;
+			height:100px;
+			
+			display:block;		
+		}
+	</style>
+</head>
+</code>		
 </pre>
 
 

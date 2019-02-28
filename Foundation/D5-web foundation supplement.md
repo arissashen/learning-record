@@ -103,7 +103,7 @@ id选择器 > 类名选择器 > 标签名选择器
 
 ### 外链CSS
 
-在当前html页面使用link单标签引入外部CSS文件
+**在当前html页面使用link单标签引入外部CSS文件**
 >link单标签放在<head>内<title>下
 
 html文件：
@@ -113,7 +113,7 @@ html文件：
 </head>
 ```
 
-css文件：
+css文件：  **注意外链CSS文件当中不需要写style标签**
 ```  
 div{
 	width:100px;
@@ -122,10 +122,19 @@ div{
 }
 ```
 
+### 行内CSS
 
+将CSS代码写在具体的html标签上
+>**style的内容不能手段换行**
 
-
-
+```html
+<html>
+	<body>
+		<div style="color:red;width:100px;height:50px;background-color:pink;">div标签</div>
+		<!-- style="A;B;C;D" -->
+	</body>
+</html>
+```
 
 
 

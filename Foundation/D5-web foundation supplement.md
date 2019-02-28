@@ -142,9 +142,3 @@ div{
 >p{color:pink!important;}
 
 在没有!important的情况下，行内CSS的权重最高，而外链CSS和内嵌CSS的权重取决于各自所使用的选择器的权重
-
-
-
-
-
-

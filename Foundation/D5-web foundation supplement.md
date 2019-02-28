@@ -98,8 +98,9 @@ id选择器 > 类名选择器 > 标签名选择器
 </body>
 ```
 
+### 外链CSS
 
-
+在当前html页面使用link单标签引入外部CSS文件（link单标签放在<head>内<title>下）
 
 
 

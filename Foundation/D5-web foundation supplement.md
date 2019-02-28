@@ -110,13 +110,13 @@ html文件：
 </head>
 ```
 
-```css
+
 div{
 	width:100px;
 	height:100px;
 	background-color:seagreeen;
 }
-```
+
 
 
 

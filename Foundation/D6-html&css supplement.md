@@ -26,10 +26,10 @@ span标签
 ### 元素展示类型的转换
 
 display属性值
->转换为块元素：block
->转换为行内元素：inline	
->转换为行内块元素：inline-block
->转换为不显示元素：none
+>转换为块元素：block  
+>转换为行内元素：inline	  
+>转换为行内块元素：inline-block  
+>转换为不显示元素：none  
 
 ```html
 <head>

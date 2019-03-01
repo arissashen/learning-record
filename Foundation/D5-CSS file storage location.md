@@ -1,5 +1,8 @@
 ## CSS文件存放位置
 
+### 内嵌CSS
+见D4-CSS selector.html
+
 ### 外链CSS
 
 **在当前html页面使用link单标签引入外部CSS文件**

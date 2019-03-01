@@ -54,7 +54,25 @@ display属性值
 
 ### 文字样式
 
+行高：line-height
 
+```html
+<head>
+	color:#fff;
+	width:200px;
+	height:500px
+	
+</head>
+<body>
+	<span>行高：line-height</span>
+	
+	
+	
+	
+
+
+</body>
+```
 
 
 

@@ -55,6 +55,22 @@ display属性值
 ### 文字样式
 
 行高：line-height
+>将行高大小设置为当前元素的高度时，可实现单行文本在当前元素中垂直方向居中显示
+
+字体颜色：color
+
+字体大小：font-size
+>单位为px
+>浏览器有一个最小的显示字体（Chrome为12）
+
+水平对齐方式：text-align
+>值：left、center、right
+
+字体粗细：font-weight
+>值：数值（100-900）、关键字（正常normal、加粗bold）
+
+字体类型：font-family
+>值：宋体 等
 
 ```html
 <head>
@@ -62,11 +78,15 @@ display属性值
 	<title>文字样式</title>
 	<style type="text/css">
 		div{
-			color:#000;
-			width:50px;
+			color:#000;    <!-- 字体颜色 -->
+			width:80px;
 			height:200px;
 			background: mistyrose;
-			line-height: 200px;    <!-- 将行高大小设置为当前元素的高度时，可实现单行文本在当前元素中垂直方向居中显示 -->
+			line-height: 200px;    <!-- 单行文本在当前元素中垂直方向居中显示 -->
+			font-size: 30px;    <!-- 字体大小 -->
+			text-align: center;    <!-- 水平对齐方式 -->
+			font-weight: bold;    <!-- 字体粗细 -->
+			font-family: "楷体";    <!-- 字体类型 -->
 		}		
 	</style>
 </head>
@@ -74,9 +94,3 @@ display属性值
 	<div>行高</div>
 </body>
 ```
-
-
-
-
-
-

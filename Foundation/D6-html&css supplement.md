@@ -58,19 +58,20 @@ display属性值
 
 ```html
 <head>
-	color:#fff;
-	width:200px;
-	height:500px
-	
+	<meta charset="UTF-8">
+	<title>文字样式</title>
+	<style type="text/css">
+		div{
+			color:#000;
+			width:50px;
+			height:200px;
+			background: mistyrose;
+			line-height: 200px;    <!-- 将行高大小设置为当前元素的高度时，可实现单行文本在当前元素中垂直方向居中显示 -->
+		}		
+	</style>
 </head>
 <body>
-	<span>行高：line-height</span>
-	
-	
-	
-	
-
-
+	<div>行高</div>
 </body>
 ```
 

@@ -120,26 +120,43 @@ CSS3允许一段文字有多层阴影，用逗号隔开
 ### 过渡属性
 
 过渡属性的作用：在元素的默认样式与最终样式变化之间产生一个过程  
-CSS3中的
+CSS3中的过度属性为transition
 
-
-
-
-
+transition：all 1s linear 0s;
+>第一个参数：设置元素身上的哪些属性产生过渡，all值表示所有属性都过渡  
+>第二个参数：设置过渡需要的时长，**单位为s，不可省略**
+>第三个参数：设置过渡的动画形式，linear值表示匀速
+>第四个参数：设置当前过渡等待多久之后才会执行，即延时。**单位为s，即使为0也不可省略**
 
 ```html
 
-
-
-
-
-
-
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>过度属性</title>
+		<style type="text/css">
+			div{
+			/* 默认状态 */
+				width: 100px;
+				height: 100px;
+				background-color: cornflowerblue;	
+				
+				transition:all 1.5s linear 0s;			
+			}
+			
+			div:hover{
+			/* :hover为选择器 */
+			/* div:hover即    :hover选择器    选中div元素被鼠标移上去时的状态 */
+				width: 600px;
+				background-color: pink;
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html>
 ```
-
-
-
-
 
 ### 页面各个区块之间设置空行
 

@@ -102,10 +102,10 @@ display属性值
 ```html
 <style type="text/css">
 	.box1{
-		margin-bottom:10px    <!-- margin-bottom:该div元素与下一个元素之间有10px的距离 -->
+		margin-bottom:10px;    <!-- margin-bottom:该div元素与下一个元素之间有10px的距离 -->
 	}
 	.box2{
-		margin-top:10px    <!-- margin-top:该div元素与上一个元素之间有10px的距离 -->
+		margin-top:10px;    <!-- margin-top:该div元素与上一个元素之间有10px的距离 -->
 	}
 </style>
 ```
@@ -114,7 +114,7 @@ display属性值
 ```html
 <style type="text/css">
 	.box{
-		margin:100px auto    <!-- margin的第一个属性100px表示该div元素与上一个元素和下一个元素之间的距离为100px -->
+		margin:100px auto;    <!-- margin的第一个属性100px表示该div元素与上一个元素和下一个元素之间的距离为100px -->
 				     <!-- margin的第二个属性auto表示该div元素与网页的左边和右边的距离为平均分配，即水平居中显示 -->
 	}
 </style>

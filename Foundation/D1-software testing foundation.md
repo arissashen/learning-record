@@ -23,5 +23,5 @@ ASCII表中二进制为Bin，A为65，a为97
 1TB     =1024GB  
 1P      =1024TB  
 
-Browser/Server B/S架构，即浏览器和服务器架构模式
+Browser/Server B/S架构，即浏览器和服务器架构模式  
 Client/Server  C/S架构，即客户端/服务器架构
